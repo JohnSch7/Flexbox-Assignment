@@ -2,44 +2,40 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Flexbox: Task 4</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Flexbox: Task 4</title>
 
 
-  <style>
-    body {
-      background-color: #fff;
-      color: #333;
-      font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
-      padding: 1em;
-      margin: 0;
-    }
+    <style>
+        body {
+            background-color: #fff;
+            color: #333;
+            font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+            padding: 1em;
+            margin: 0;
+        }
 
-    ul {
-      display: grid;
-      width: 1000px;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      grid-gap: 1px;
-      min-height: 100px;
-      max-width: 700px;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      grid-template-columns: 200px 1fr 1fr 1fr;
-    }
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 450px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
 
-    li {
-      background-color: #4D7298;
-      border: 2px solid #77A6B6;
-      border-radius: .5em;
-      color: #fff;
-      padding: .5em;
-      margin: .5em;
-    }
-  </style>
+        li {
+            flex-grow: 1;
+            background-color: #4D7298;
+            border: 2px solid #77A6B6;
+            border-radius: .5em;
+            color: #fff;
+            padding: .5em;
+            margin: .5em;
+        }
+    </style>
 
 
 
@@ -47,21 +43,22 @@
 
 <body>
 
-  <ul>
-    <li>Turnip</li>
-    <li>greens</li>
-    <li>yarrow</li>
-    <li>ricebean</li>
-    <li>rutabaga</li>
-    <li>endive</li>
-    <li>cauliflower</li>
-    <li>sea lettuce</li>
-    <li>kohlrabi</li>
-    <li>amaranth</li>
-  </ul>
+    <ul>
+        <li>Turnip</li>
+        <li>greens</li>
+        <li>yarrow</li>
+        <li>ricebean</li>
+        <li>rutabaga</li>
+        <li>endive</li>
+        <li>cauliflower</li>
+        <li>sea lettuce</li>
+        <li>kohlrabi</li>
+        <li>amaranth</li>
+    </ul>
 
-  <em><a href="index.html" target="self">
-    Main Page</a></em>
+    <br><br>
+    
+    <em><a href="index.html" target="self"> main page</a></em>
 
 </body>
 
