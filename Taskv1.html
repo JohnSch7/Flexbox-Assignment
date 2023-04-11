@@ -2,43 +2,40 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Flexbox: Task 1</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Flexbox: Task 1</title>
 
 
-    <style>
-        body {
+  <style>
+    body {
+      background-color: #fff;
+      color: #333;
+      font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+      padding: 1em;
+      margin: 0;
+    }
 
-            background-color: #fff;
-            color: #333;
-            font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
-            padding: 1em;
-            margin: 0;
-        }
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      max-width: 700px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
 
-        nav ul {
-            display: grid;
-            grid-gap: 1em;
-            grid-template-columns: auto auto auto auto;
-            min-height: 0px;
-            max-width: 700px;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        nav a:link,
-        nav a:visited {
-            background-color: #4D7298;
-            border: 2px solid #77A6B6;
-            border-radius: .5em;
-            color: #fff;
-            padding: .5em;
-            display: inline-block;
-            text-decoration: none;
-        }
-    </style>
+    nav a:link,
+    nav a:visited {
+      background-color: #4D7298;
+      border: 2px solid #77A6B6;
+      border-radius: .5em;
+      color: #fff;
+      padding: .5em;
+      display: inline-block;
+      text-decoration: none;
+    }
+  </style>
 
 
 
@@ -46,19 +43,18 @@
 
 <body>
 
-    <h1>Task 1</h1>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About Us</a></li>
+      <li><a href="/products">Our Products</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+    </ul>
+  </nav>
 
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/products">Our Products</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-        </ul>
-    </nav>
+  <br><br>
 
-    <em><a href="index.html" target="self">
-            Main Page</a></em>
+  <em><a href="index.html" target="self"> main page</a></em>
 
 </body>
 
