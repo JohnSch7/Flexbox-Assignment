@@ -14,30 +14,24 @@
             font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
             padding: 1em;
             margin: 0;
-
         }
 
         .parent {
+            display: flex;
+            justify-content: space-around;
             border: 2px solid #77A6B6;
             border-radius: .5em;
             width: 400px;
-            height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
+            height: 300px;
         }
 
         .child {
             background-color: #4D7298;
             color: #fff;
             padding: .5em;
-            width: 100px;
-            height: 50px;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-
+            width: 150px;
+            margin: auto;
+            height: fit-content;
         }
     </style>
 
@@ -47,14 +41,13 @@
 
 <body>
 
-    <h1>Task 3</h1>
-
     <div class="parent">
         <div class="child">Center me.</div>
     </div>
 
-    <em><a href="index.html" target="self">
-        Main Page</a></em>
+    <br><br>
+
+    <em><a href="index.html" target="self"> main page</a></em>
 
 </body>
 
